@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* the main container */
+.container {
+  margin-top: 4%;
+}
+.card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+.card-deck {
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  background-color:  #EEEEEE;
+}
+iframe[seamless]{
+  border: none;
+}
+#nav-header{
+  overflow: hidden;
+  height: 140px;
+  position: relative;
+  margin-top: 1%;
+  width: 100%;
+}
+#nav-header iframe{
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;   
+}
+@media only screen and (max-width:450px){
+  .the-color{
+      width: 100%;
+  }
+  
+}
