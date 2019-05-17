@@ -1,7 +1,11 @@
 @charset "UTF-8";
 /*!
  * Material Design for Bootstrap 4
+<<<<<<< HEAD
  * Version: MDB FREE 4.8.0
+=======
+ * Version: MDB FREE 4.8.1
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
  *
  *
  * Copyright: Material Design for Bootstrap
@@ -7496,7 +7500,11 @@ body.scrollable {
     .md-form input[type=search].form-control:focus.valid + label:after,
     .md-form textarea.md-textarea.form-control.valid + label:after,
     .md-form textarea.md-textarea.form-control:focus.valid + label:after {
+<<<<<<< HEAD
       top: 3.56rem; }
+=======
+      top: 4.1rem; }
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
     .md-form input[type=text].form-control.invalid + label:after,
     .md-form input[type=text].form-control:focus.invalid + label:after,
     .md-form input[type=password].form-control.invalid + label:after,
@@ -7521,7 +7529,11 @@ body.scrollable {
     .md-form input[type=search].form-control:focus.invalid + label:after,
     .md-form textarea.md-textarea.form-control.invalid + label:after,
     .md-form textarea.md-textarea.form-control:focus.invalid + label:after {
+<<<<<<< HEAD
       top: 3.44rem; }
+=======
+      top: 4rem; }
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
     .md-form input[type=text].form-control-lg.valid + label:after,
     .md-form input[type=text].form-control-lg:focus.valid + label:after,
     .md-form input[type=password].form-control-lg.valid + label:after,
@@ -7546,7 +7558,11 @@ body.scrollable {
     .md-form input[type=search].form-control-lg:focus.valid + label:after,
     .md-form textarea.md-textarea.form-control-lg.valid + label:after,
     .md-form textarea.md-textarea.form-control-lg:focus.valid + label:after {
+<<<<<<< HEAD
       top: 4.1rem; }
+=======
+      top: 4.6rem; }
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
     .md-form input[type=text].form-control-lg.invalid + label:after,
     .md-form input[type=text].form-control-lg:focus.invalid + label:after,
     .md-form input[type=password].form-control-lg.invalid + label:after,
@@ -7571,7 +7587,11 @@ body.scrollable {
     .md-form input[type=search].form-control-lg:focus.invalid + label:after,
     .md-form textarea.md-textarea.form-control-lg.invalid + label:after,
     .md-form textarea.md-textarea.form-control-lg:focus.invalid + label:after {
+<<<<<<< HEAD
       top: 4rem; }
+=======
+      top: 4.6rem; }
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
     .md-form input[type=text].form-control-sm.valid + label:after,
     .md-form input[type=text].form-control-sm:focus.valid + label:after,
     .md-form input[type=password].form-control-sm.valid + label:after,
@@ -7596,7 +7616,11 @@ body.scrollable {
     .md-form input[type=search].form-control-sm:focus.valid + label:after,
     .md-form textarea.md-textarea.form-control-sm.valid + label:after,
     .md-form textarea.md-textarea.form-control-sm:focus.valid + label:after {
+<<<<<<< HEAD
       top: 3.2rem; }
+=======
+      top: 3.7rem; }
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
     .md-form input[type=text].form-control-sm.invalid + label:after,
     .md-form input[type=text].form-control-sm:focus.invalid + label:after,
     .md-form input[type=password].form-control-sm.invalid + label:after,
@@ -7621,7 +7645,11 @@ body.scrollable {
     .md-form input[type=search].form-control-sm:focus.invalid + label:after,
     .md-form textarea.md-textarea.form-control-sm.invalid + label:after,
     .md-form textarea.md-textarea.form-control-sm:focus.invalid + label:after {
+<<<<<<< HEAD
       top: 3.1rem; }
+=======
+      top: 3.6rem; }
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
   .md-form > input[type=date]:not(.browser-default) + label {
     -webkit-transform: translateY(-27px) scale(0.8);
     -ms-transform: translateY(-27px) scale(0.8);
@@ -7655,16 +7683,40 @@ body.scrollable {
     -webkit-border-radius: 0;
     border-radius: 0;
     padding: 0.6rem 0 0.4rem 0;
+<<<<<<< HEAD
     background-image: none;
+=======
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
     background-color: transparent;
     height: auto; }
     .md-form .form-control:focus {
       -webkit-box-shadow: none;
+<<<<<<< HEAD
       box-shadow: none;
       background: transparent; }
     .md-form .form-control:disabled, .md-form .form-control[readonly] {
       border-bottom: 1px solid #bdbdbd;
       background-color: transparent; }
+=======
+      box-shadow: none; }
+    .md-form .form-control:disabled, .md-form .form-control[readonly] {
+      border-bottom: 1px solid #bdbdbd;
+      background-color: transparent; }
+    .md-form .form-control.is-valid {
+      border-color: #00c851; }
+      .md-form .form-control.is-valid:focus {
+        border-color: #00c851 !important;
+        -webkit-box-shadow: 0 1px 0 0 #00c851 !important;
+        box-shadow: 0 1px 0 0 #00c851 !important; }
+    .md-form .form-control.is-invalid {
+      border-color: #f44336; }
+      .md-form .form-control.is-invalid:focus {
+        -webkit-box-shadow: 0 1px 0 0 #f44336 !important;
+        box-shadow: 0 1px 0 0 #f44336 !important;
+        border-color: #f44336 !important; }
+    .md-form .form-control.is-valid, .md-form .form-control.is-invalid {
+      background-position: center right !important; }
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
   .md-form .validate {
     margin-bottom: 2.5rem; }
   .md-form label {
@@ -7685,7 +7737,10 @@ body.scrollable {
   .md-form label {
     position: absolute;
     top: 0;
+<<<<<<< HEAD
     left: 0;
+=======
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
     font-size: 1rem;
     -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
     transition: color .2s ease-out, -webkit-transform .2s ease-out;
@@ -8520,6 +8575,7 @@ table.table-sm td {
 .table-responsive-xl > .table-bordered {
   border-top: 1px solid #dee2e6; }
 
+<<<<<<< HEAD
 .masonry-with-columns {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8879,6 +8935,8 @@ table.table-sm td {
     height: 131px;
     line-height: 131px; }
 
+=======
+>>>>>>> 20b6a8867d3443c1973699d21ce2ea2226ae41fb
 ul.stepper {
   counter-reset: section;
   overflow-y: auto;
